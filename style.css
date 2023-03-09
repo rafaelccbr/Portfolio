@@ -14,17 +14,12 @@ body {
 
 }
 
+/*titulo*/
 .titulo-destaque {
     color: #810ca8;
 }
 
-.apresentacao {
-    margin: 10% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
+/*imagens*/
 img {
     width: 475px;
     height: 540px;
@@ -49,6 +44,14 @@ img {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+/*apresentacoes*/
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .apresentacao__conteudo {
@@ -95,7 +98,13 @@ img {
     color: #f6f6f6;
     font-family: 'montserrat', sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 16px;
+    transition: all 200ms ease-in-out;
+}
+
+.apresentacao__links__link:hover {
+    opacity: 0.65;
+    padding: 21.5px 8px;
 }

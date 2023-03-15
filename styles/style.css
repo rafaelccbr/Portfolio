@@ -74,6 +74,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -136,7 +137,7 @@ img {
 }
 
 /* .apresentacao__imagem {
-    width: 50%;
+    width: 96%;
 } */
 
 /* rodape */
@@ -148,4 +149,27 @@ img {
     font-family: 'montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .img__pai {
+        height: 33.5vh;
+        width: 55%;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__conteudo {
+        width: 95%;
+    }
 }

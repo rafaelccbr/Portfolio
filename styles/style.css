@@ -172,4 +172,8 @@ img {
     .apresentacao__conteudo {
         width: 95%;
     }
+
+    .apresentacao__links__navegacao {
+        padding: 21.5px 15px;
+    }
 }
